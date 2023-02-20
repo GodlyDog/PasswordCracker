@@ -1,4 +1,5 @@
 # PasswordCracker
 Crack passwords!
 
-Password cracking scheme: common password attack -> leaked password attack -> dictionary attack with leet speak modifications -> brute force attack
+Currently checks the top 1000 most common passwords, then checks a long list of leaked passwords, then starts brute force attack.
+TODO: Implement a proper dictionary attack that runs before the brute force attack.
